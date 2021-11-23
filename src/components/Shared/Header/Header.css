@@ -1,0 +1,27 @@
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(66, 64, 64);
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .items:hover {
+    color: #a01039;
+  }
+
+  /* Dropdown */
+  .items2 {
+    list-style: none;
+    /* margin-right: 30px; */
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(66, 64, 64);
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+ 
