@@ -12,7 +12,7 @@ const Products = () => {
             });
     }, [])
     return (
-        <div className="mt-5 pb-4 container-fluid">
+        <div className="mt-5 pb-4 container">
             <h2 className="text-center py-4">Best Selling <span style={{color:'#CC2052'}}> Perfumes </span></h2>
                 { homeProducts.length === 0 ? 
                  <Spinner animation="border"/>

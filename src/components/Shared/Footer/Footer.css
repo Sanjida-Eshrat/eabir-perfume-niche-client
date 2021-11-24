@@ -30,3 +30,9 @@
   .text-anim:hover {
     font-size: 3rem;
   }
+
+  /* new css */
+  .text-color{
+    color: #f3668b;
+    /* background-color: #faf1f1; */
+  }

@@ -20,7 +20,7 @@ const Reviews = () => {
                     <Row xs={1} md={2} lg={3} className="g-3 mt-2">
                     {
                         reviews.map(review => <Card className="text-center ">
-                        <Card.Body>
+                        <Card.Body >
                           <Card.Title style={{color:'#cc2052'}}>{review.name}</Card.Title>
                           <Card.Text>
                                 {review.comment}

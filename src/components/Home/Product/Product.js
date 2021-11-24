@@ -21,7 +21,7 @@ const Product = (props) => {
                         fullSymbol="fas fa-star icon-color" readonly></Rating>
                         <Card.Text className="fw-bold">Rating: {star}</Card.Text>
                         <Link to={`/productOrder/${_id}`}>
-                            <Button style={{backgroundColor:'#CC2052'}} className="border-light"><i class="fas fa-shopping-cart"></i> Order Now</Button>
+                            <Button style={{backgroundColor:'#CC2052'}} className="border-light "><i class="fas fa-shopping-cart"></i> Order Now</Button>
                         </Link>
                     </Card.Body>
                 </Card>
